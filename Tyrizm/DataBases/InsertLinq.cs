@@ -38,10 +38,7 @@ namespace Tyrizm.DataBases
             Table<Hotel> hotel = db.GetTable<Hotel>();
             return hotel;
         }
-       /// <summary>
-       /// //
-       /// </summary>
-       /// <returns></returns>
+      
         public Table<HotelList> GetHotelList()
         {
             Table<HotelList> hotels = db.GetTable<HotelList>();     
