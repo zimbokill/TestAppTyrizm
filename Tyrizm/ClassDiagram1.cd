@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Tyrizm.ChooseTour" Collapsed="true">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgEAAACAAIBQokACAAAACIAIAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Forms\ChooseTour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tyrizm.FlightForm" Collapsed="true">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAAAAAACAAABAKgACAAAACAAIAAAAQAAAAAAAAAAI=</HashCode>
+      <FileName>Forms\FlightForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tyrizm.HotelForm" Collapsed="true">
+    <Position X="3.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAEBCAAIACAAAAAIAAAAAAAAAEAAA=</HashCode>
+      <FileName>Forms\HotelForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tyrizm.PersonForm" Collapsed="true">
+    <Position X="1.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAgAACAABJAAEECAQAADBAAAAAAAAAAAAAAEIAA=</HashCode>
+      <FileName>Forms\PersonForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tyrizm.Collections.Countryinformation" Collapsed="true">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEAAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Collections\Countryinformation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ChooseTour" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tyrizm.Collections.FlightInformation" Collapsed="true">
+    <Position X="8" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAABAIAAAgAAAAAAAAAAAAAAAACBAAAAAA=</HashCode>
+      <FileName>Collections\FlightInformation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FlightForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tyrizm.Collections.HotelInformation" Collapsed="true">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAEAAAAAIQAAAAACIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\HotelInformation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HotelForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tyrizm.Collections.PersonInformation" Collapsed="true">
+    <Position X="1.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Collections\PersonInformation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PersonForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tyrizm.Validation" Collapsed="true">
+    <Position X="4.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAACABAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PersonInformation" />
+      <Property Name="HotelInformation" />
+      <Property Name="Countryinformation" />
+      <Property Name="FlightInformation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Tyrizm.Collections.PassportInformation" Collapsed="true">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAggAAAAABAAAAEAEAAQAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Collections\PassportInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tyrizm.ContactInformation" Collapsed="true">
+    <Position X="1.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections\ContactInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
